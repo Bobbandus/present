@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>A+ Studios — Kamerapaket & Utrustningskalkylator</title>
+  <title>A+ Studios — Kamerapaket 2026</title>
   
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -64,8 +64,8 @@
           A+
         </div>
         <div>
-          <h1 class="text-lg font-bold tracking-wider text-white font-display">A+ STUDIOS</h1>
-          <p class="text-xs text-zinc-400">Production Gear Configurator</p>
+          <h1 class="text-lg font-bold tracking-wider text-white font-display uppercase">A+ Studios - Kamerapaket 2026</h1>
+          <p class="text-xs text-zinc-400">Officiell Utrustningskalkylator</p>
         </div>
       </div>
 
@@ -75,12 +75,7 @@
           <span class="text-xs uppercase tracking-wider text-zinc-400 block">Valt Paket Totalt</span>
           <div class="flex items-baseline space-x-2">
             <span id="nav-net-total" class="text-xl font-extrabold text-amber-400">0 kr</span>
-            <span id="nav-gross-total" class="text-xs text-zinc-500 line-through">0 kr</span>
           </div>
-        </div>
-        <div class="border-l border-zinc-800 pl-4 text-right">
-          <span class="text-xs text-emerald-400 font-semibold block"><i class="fa-solid fa-tags mr-1"></i> Cashback</span>
-          <span id="nav-cashback" class="text-sm font-bold text-emerald-400">-0 kr</span>
         </div>
       </div>
     </div>
@@ -94,10 +89,11 @@
         <i class="fa-solid fa-clapperboard mr-2"></i> Kamerasystem & Komplett Rig-Setup
       </span>
       <h2 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight font-display mb-4">
-        LUMIX S5II FILMPAKET
+        A+ STUDIOS RIG-KONFIGURATOR
       </h2>
       <p class="max-w-2xl mx-auto text-zinc-400 text-sm sm:text-base">
-        Jämför och beräkna två skräddarsydda filmriggar med Panasonic S5II. Alla länkar, cashback-rabatter och stativpaket inkluderade.
+        Jämför och beräkna skräddarsydda filmriggar. Här finns riktiga länkar till alla komponenter, 
+        samlade och strukturerade för att direkt kunna genomföra beställningarna.
       </p>
     </div>
   </section>
@@ -119,7 +115,7 @@
           <div class="flex justify-between items-start mb-4">
             <div>
               <span class="text-xs font-semibold uppercase tracking-widest text-amber-400">Option 1</span>
-              <h4 class="text-xl font-bold text-white group-hover:text-amber-400 transition-colors">Paket A: Anamorfisk / Cinema Prime</h4>
+              <h4 class="text-xl font-bold text-white group-hover:text-amber-400 transition-colors">Anamorphic / Cinema</h4>
             </div>
             <div id="badge-a" class="w-6 h-6 rounded-full border-2 border-amber-500 bg-amber-500 flex items-center justify-center text-zinc-950 text-xs">
               <i class="fa-solid fa-check"></i>
@@ -129,11 +125,8 @@
             För kinematografisk look med SIRUI 35mm Anamorphic, manuell Follow Focus och stor 82mm ND-filterlösning.
           </p>
           <div class="bg-zinc-900/90 rounded-xl p-3 border border-zinc-800/80 flex justify-between items-center text-sm">
-            <span class="text-zinc-400">Paketpris (Netto):</span>
-            <span class="font-extrabold text-amber-400 text-lg" id="pkg-a-price-display">28,338.96 kr</span>
-          </div>
-          <div class="mt-2 text-right">
-            <span class="text-xs text-emerald-400"><i class="fa-solid fa-tag"></i> Inkl. 2 200 kr Cashback</span>
+            <span class="text-zinc-400">Paketpris inkl. bas:</span>
+            <span class="font-extrabold text-amber-400 text-lg" id="pkg-a-price-display">28,339 kr</span>
           </div>
         </label>
 
@@ -143,7 +136,7 @@
           <div class="flex justify-between items-start mb-4">
             <div>
               <span class="text-xs font-semibold uppercase tracking-widest text-cyan-400">Option 2</span>
-              <h4 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">Paket B: Autofokus Kit</h4>
+              <h4 class="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">Kit AF / Mångsidig</h4>
             </div>
             <div id="badge-b" class="w-6 h-6 rounded-full border-2 border-zinc-700 flex items-center justify-center text-xs">
               <i class="fa-solid fa-check opacity-0"></i>
@@ -153,129 +146,85 @@
             Mångsidigt Run & Gun kit med Panasonic 20-60mm f/3.5-5.6 autofokusobjektiv och 67mm ND-filter.
           </p>
           <div class="bg-zinc-900/90 rounded-xl p-3 border border-zinc-800/80 flex justify-between items-center text-sm">
-            <span class="text-zinc-400">Paketpris (Netto):</span>
-            <span class="font-extrabold text-cyan-400 text-lg" id="pkg-b-price-display">21,919.00 kr</span>
-          </div>
-          <div class="mt-2 text-right">
-            <span class="text-xs text-emerald-400"><i class="fa-solid fa-tag"></i> Inkl. 3 300 kr Cashback</span>
+            <span class="text-zinc-400">Paketpris inkl. bas:</span>
+            <span class="font-extrabold text-cyan-400 text-lg" id="pkg-b-price-display">21,919 kr</span>
           </div>
         </label>
       </div>
     </section>
 
-    <!-- SECTION 1: Basutrustning (Ingår i båda paketen) -->
+    <!-- SECTION 1: Basutrustning (Låst / Ingår i båda paketen) -->
     <section>
       <div class="flex items-center justify-between mb-6 pb-2 border-b border-zinc-800">
         <div>
           <h3 class="text-xl font-bold text-white font-display flex items-center gap-2">
-            <i class="fa-solid fa-cubes text-amber-500"></i> Basutrustning
+            <i class="fa-solid fa-lock text-zinc-500"></i> Låst Basutrustning
           </h3>
-          <p class="text-xs text-zinc-400">Ingår i alla paketalternativ (Gemensam rigg & tillbehör)</p>
+          <p class="text-xs text-zinc-400">Gemensam rigg och tillbehör. Alltid inkluderat.</p>
         </div>
         <span class="text-xs font-bold bg-zinc-800 text-zinc-300 px-3 py-1 rounded-full border border-zinc-700">
-          Totalt Bas: 4,806 kr
+          Fast Pris: 4,806 kr
         </span>
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
         <!-- Item 1: Benro Stativpaket -->
-        <div class="bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden flex flex-col justify-between hover:border-zinc-700 transition-all group">
-          <div>
-            <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1512790182412-b19e6d611397?auto=format&fit=crop&w=600&q=80" alt="Benro Stativpaket" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-              <span class="absolute top-3 left-3 bg-red-600/90 text-white text-[10px] font-bold px-2 py-0.5 rounded shadow">
-                BLOCKET / BEGAGNAT
-              </span>
-            </div>
-            <div class="p-4">
-              <h4 class="font-bold text-white text-base mb-1">Benro Stativpaket (4 st)</h4>
-              <p class="text-xs text-zinc-400 mb-3">
-                Paket med 2x KH25 videostativ, 1x C48T Kolfiber Monopod med Sirui L-10 huvud & 1x T669N bonusstativ.
-              </p>
-              <div class="text-xs text-amber-400 font-medium mb-1"><i class="fa-solid fa-location-dot"></i> Hämtas på plats</div>
-            </div>
+        <div class="bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden flex flex-col hover:border-zinc-700 transition-all group">
+          <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1512790182412-b19e6d611397?auto=format&fit=crop&w=600&q=80" alt="Benro Stativpaket" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-red-600/90 text-white text-[10px] font-bold px-2 py-0.5 rounded shadow">BLOCKET</span>
           </div>
-          <div class="p-4 pt-0 border-t border-zinc-800/50 mt-auto flex items-center justify-between">
-            <span class="text-lg font-bold text-white">2,400 kr</span>
-            <a href="https://www.blocket.se/recommerce/forsale/item/25174510?ci=6" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 bg-amber-500 hover:bg-amber-400 text-zinc-950 rounded-lg text-xs font-bold transition-colors inline-flex items-center gap-1">
-              <span>Visa Blocket</span>
-              <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+          <div class="p-4 flex-1 flex flex-col">
+            <h4 class="font-bold text-white text-base mb-1">Benro Stativpaket</h4>
+            <p class="text-xs text-zinc-400 flex-1">Komplett kit med stativ för säker kameraplacering.</p>
+            <a href="https://www.blocket.se/recommerce/forsale/item/25174510?ci=6" target="_blank" rel="noopener noreferrer" class="mt-4 w-full py-2 bg-zinc-800 hover:bg-zinc-700 text-white text-center rounded-lg text-sm font-bold transition-colors flex items-center justify-center gap-2 border border-zinc-700">
+              Köp på Blocket <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </div>
         </div>
 
         <!-- Item 2: SmallRig Shoulder Rig -->
-        <div class="bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden flex flex-col justify-between hover:border-zinc-700 transition-all group">
-          <div>
-            <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1589872783345-849a35bfa9d9?auto=format&fit=crop&w=600&q=80" alt="SmallRig Shoulder Kit" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-              <span class="absolute top-3 left-3 bg-zinc-800/90 text-zinc-300 text-[10px] font-bold px-2 py-0.5 rounded shadow">
-                SCANDINAVIAN PHOTO
-              </span>
-            </div>
-            <div class="p-4">
-              <h4 class="font-bold text-white text-base mb-1">SmallRig 2896 Shoulder Kit</h4>
-              <p class="text-xs text-zinc-400 mb-3">
-                Basic axelrigg-kit med handtag, dual 15mm rods och ergonomisk axelvadd för stabil handhållen filmning.
-              </p>
-            </div>
+        <div class="bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden flex flex-col hover:border-zinc-700 transition-all group">
+          <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1589872783345-849a35bfa9d9?auto=format&fit=crop&w=600&q=80" alt="SmallRig Shoulder Kit" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-zinc-800/90 text-zinc-300 text-[10px] font-bold px-2 py-0.5 rounded shadow">SCANDINAVIAN PHOTO</span>
           </div>
-          <div class="p-4 pt-0 border-t border-zinc-800/50 mt-auto flex items-center justify-between">
-            <span class="text-lg font-bold text-white">1,090 kr</span>
-            <a href="https://www.scandinavianphoto.se/smallrig/2896-shoulder-rig-kit-basic-1049303" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 bg-zinc-800 hover:bg-zinc-700 text-white rounded-lg text-xs font-bold transition-colors inline-flex items-center gap-1 border border-zinc-700">
-              <span>Köp SP</span>
-              <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+          <div class="p-4 flex-1 flex flex-col">
+            <h4 class="font-bold text-white text-base mb-1">SmallRig 2896 Shoulder Kit</h4>
+            <p class="text-xs text-zinc-400 flex-1">Axelrigg-kit med handtag och dual 15mm rods för stabil handhållen filmning.</p>
+            <a href="https://www.scandinavianphoto.se/" target="_blank" rel="noopener noreferrer" class="mt-4 w-full py-2 bg-zinc-800 hover:bg-zinc-700 text-white text-center rounded-lg text-sm font-bold transition-colors flex items-center justify-center gap-2 border border-zinc-700">
+              Gå till Butik <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </div>
         </div>
 
         <!-- Item 3: SmallRig Matte Box -->
-        <div class="bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden flex flex-col justify-between hover:border-zinc-700 transition-all group">
-          <div>
-            <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80" alt="SmallRig Matte Box" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-              <span class="absolute top-3 left-3 bg-orange-600/90 text-white text-[10px] font-bold px-2 py-0.5 rounded shadow">
-                AMAZON
-              </span>
-            </div>
-            <div class="p-4">
-              <h4 class="font-bold text-white text-base mb-1">SmallRig Mini Matte Box Lite</h4>
-              <p class="text-xs text-zinc-400 mb-3">
-                Kompakt kompendium med top flag för motljusskydd och filterhållare för plug-in filter.
-              </p>
-            </div>
+        <div class="bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden flex flex-col hover:border-zinc-700 transition-all group">
+          <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80" alt="SmallRig Matte Box" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-orange-600/90 text-white text-[10px] font-bold px-2 py-0.5 rounded shadow">AMAZON</span>
           </div>
-          <div class="p-4 pt-0 border-t border-zinc-800/50 mt-auto flex items-center justify-between">
-            <span class="text-lg font-bold text-white">797 kr</span>
-            <a href="https://www.amazon.se/SMALLRIG-Mini-Matte-Camera-Compatible/dp/B09NW9R9J6/ref=sr_1_1_sspa?crid=3SHVJHPWTY8XV&dib=eyJ2IjoiMSJ9.LynBBG04sLJ4m3Syr8Hx2ba4IFvYLs7dG4RbyxgKITUevPGM7SV6ggszxTSk24pkURppoSPKPIg29HE2dC3WWXuaBT0BrNWjox9wEoYh_CS0BYjgnxq_OjM0tE9FnC2XuhtTQHPcpyrA-zhH7IjexSDJv65VRejcgGSD_1Ak68OD4GDcEDOaITrLmU_U9uFner80QCUtOzGnYLM_OJjykWktvxg13rdTiNOtzJSL648rJCTrQ8-FoFuLvk37gc9WIAG-uQXQ6MFg4hoh_Vv3N36GDcd9fAc-RtR_Vb-yZmY.ue-pxwy23EsvJbnqML8N9Z2u4zzmJS45cvSAUu1lwhY&dib_tag=se&keywords=matte+box&qid=1790361156&sprefix=mattebox%2Caps%2C153&sr=8-1-spons&aref=B7VQkoFJVv&sp_csd=d2lkZ2V0NamE1c1_atf&psc=1" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 bg-orange-600 hover:bg-orange-500 text-white rounded-lg text-xs font-bold transition-colors inline-flex items-center gap-1">
-              <span>Köp Amazon</span>
-              <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+          <div class="p-4 flex-1 flex flex-col">
+            <h4 class="font-bold text-white text-base mb-1">SmallRig Mini Matte Box Lite</h4>
+            <p class="text-xs text-zinc-400 flex-1">Kompakt kompendium med top flag för motljusskydd.</p>
+            <a href="https://www.amazon.se/SMALLRIG-Mini-Matte-Camera-Compatible/dp/B09NW9R9J6/" target="_blank" rel="noopener noreferrer" class="mt-4 w-full py-2 bg-orange-600 hover:bg-orange-500 text-white text-center rounded-lg text-sm font-bold transition-colors flex items-center justify-center gap-2 border border-orange-700">
+              Köp på Amazon <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </div>
         </div>
 
         <!-- Item 4: Jupio Batteri -->
-        <div class="bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden flex flex-col justify-between hover:border-zinc-700 transition-all group">
-          <div>
-            <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1619725002198-6a689b72f41d?auto=format&fit=crop&w=600&q=80" alt="Jupio DMW-BLK22 Batteri" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-              <span class="absolute top-3 left-3 bg-zinc-800/90 text-zinc-300 text-[10px] font-bold px-2 py-0.5 rounded shadow">
-                SCANDINAVIAN PHOTO
-              </span>
-            </div>
-            <div class="p-4">
-              <h4 class="font-bold text-white text-base mb-1">Jupio DMW-BLK22 Batteri</h4>
-              <p class="text-xs text-zinc-400 mb-3">
-                2200mAh extrabatteri kompatibelt med Panasonic Lumix S5II för långa inspelningsdagar.
-              </p>
-            </div>
+        <div class="bg-zinc-900/80 border border-zinc-800 rounded-2xl overflow-hidden flex flex-col hover:border-zinc-700 transition-all group">
+          <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1619725002198-6a689b72f41d?auto=format&fit=crop&w=600&q=80" alt="Jupio DMW-BLK22 Batteri" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-zinc-800/90 text-zinc-300 text-[10px] font-bold px-2 py-0.5 rounded shadow">SCANDINAVIAN PHOTO</span>
           </div>
-          <div class="p-4 pt-0 border-t border-zinc-800/50 mt-auto flex items-center justify-between">
-            <span class="text-lg font-bold text-white">519 kr</span>
-            <a href="https://www.scandinavianphoto.se/jupio/dmw-blk22-2200mah-1055157?_gl=1*1zugkr*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwt9jVBhDXARIsAFSP-6f4W35QO-uVNksUY8IjQMjD9rJmcS45rDrP2gulJ8SEr5s7SgHqcGQaAssAEALw_wcB&gbraid=0AAAAAD1xMF1gwsaE0_HpSLRNqPe14idqd" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 bg-zinc-800 hover:bg-zinc-700 text-white rounded-lg text-xs font-bold transition-colors inline-flex items-center gap-1 border border-zinc-700">
-              <span>Köp SP</span>
-              <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+          <div class="p-4 flex-1 flex flex-col">
+            <h4 class="font-bold text-white text-base mb-1">Jupio DMW-BLK22 Battery</h4>
+            <p class="text-xs text-zinc-400 flex-1">2200mAh extrabatteri kompatibelt med Panasonic Lumix S5II.</p>
+            <a href="https://www.scandinavianphoto.se/jupio/dmw-blk22-2200mah-1055157" target="_blank" rel="noopener noreferrer" class="mt-4 w-full py-2 bg-zinc-800 hover:bg-zinc-700 text-white text-center rounded-lg text-sm font-bold transition-colors flex items-center justify-center gap-2 border border-zinc-700">
+              Köp hos SP <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </div>
         </div>
@@ -283,126 +232,78 @@
       </div>
     </section>
 
-    <!-- SECTION 2: PAKET A SPECIFIK UTRUSTNING -->
+    <!-- SECTION 2: OPTION 1 (Anamorphic) -->
     <section id="section-pkg-a-items" class="transition-opacity duration-300">
       <div class="flex items-center justify-between mb-6 pb-2 border-b border-amber-500/30">
         <div>
           <h3 class="text-xl font-bold text-amber-400 font-display flex items-center gap-2">
-            <i class="fa-solid fa-film"></i> Paket A: Cinema Prime Gear
+            <i class="fa-solid fa-film"></i> Option 1: Anamorphic Equipment
           </h3>
-          <p class="text-xs text-zinc-400">Specifika produkter för den anamorfiska konfigurationen</p>
+          <p class="text-xs text-zinc-400">Produkter för den anamorfiska cinema-konfigurationen</p>
         </div>
         <span class="text-xs font-bold bg-amber-500/10 text-amber-400 px-3 py-1 rounded-full border border-amber-500/30">
-          Unikt för Paket A
+          Tillägg: 23,533 kr
         </span>
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
         <!-- S5II Body -->
-        <div class="bg-zinc-900/80 border border-amber-500/30 rounded-2xl overflow-hidden flex flex-col justify-between hover:border-amber-500/60 transition-all group">
-          <div>
-            <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=600&q=80" alt="Panasonic Lumix S5II Hus" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-              <span class="absolute top-3 left-3 bg-emerald-600 text-white text-[10px] font-bold px-2 py-0.5 rounded shadow">
-                2 200 KR CASHBACK
-              </span>
-            </div>
-            <div class="p-4">
-              <h4 class="font-bold text-white text-base mb-1">Panasonic Lumix S5II (Hus)</h4>
-              <p class="text-xs text-zinc-400 mb-2">
-                Fullformat, Phase Hybrid AF, 6K Open Gate video, 4:2:2 10-bit & obegränsad inspelningstid.
-              </p>
-              <div class="text-xs text-zinc-500 line-through">Ord. pris: 17,890 kr</div>
-            </div>
+        <div class="bg-zinc-900/80 border border-amber-500/30 rounded-2xl overflow-hidden flex flex-col hover:border-amber-500/60 transition-all group">
+          <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=600&q=80" alt="Panasonic Lumix S5II Hus" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-zinc-800 text-zinc-300 text-[10px] font-bold px-2 py-0.5 rounded shadow">SCANDINAVIAN PHOTO</span>
           </div>
-          <div class="p-4 pt-0 border-t border-zinc-800/50 mt-auto flex items-center justify-between">
-            <div>
-              <span class="text-xs text-emerald-400 block font-semibold">Efter Cashback</span>
-              <span class="text-lg font-extrabold text-amber-400">15,690 kr</span>
-            </div>
-            <a href="https://www.scandinavianphoto.se/panasonic/lumix-dc-s5ii-body-1058560" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 bg-amber-500 hover:bg-amber-400 text-zinc-950 rounded-lg text-xs font-bold transition-colors inline-flex items-center gap-1">
-              <span>Köp SP</span>
-              <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+          <div class="p-4 flex-1 flex flex-col">
+            <h4 class="font-bold text-white text-base mb-1">Panasonic S5II Body</h4>
+            <p class="text-xs text-zinc-400 flex-1">Fullformat, Phase Hybrid AF, 6K Open Gate video.</p>
+            <a href="https://www.scandinavianphoto.se/panasonic/lumix-dc-s5ii-body-1058560" target="_blank" rel="noopener noreferrer" class="mt-4 w-full py-2 bg-amber-500 hover:bg-amber-400 text-zinc-950 text-center rounded-lg text-sm font-bold transition-colors flex items-center justify-center gap-2">
+              Köp Hus hos SP <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </div>
         </div>
 
         <!-- Sirui 35mm Anamorphic -->
-        <div class="bg-zinc-900/80 border border-amber-500/30 rounded-2xl overflow-hidden flex flex-col justify-between hover:border-amber-500/60 transition-all group">
-          <div>
-            <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1617005082133-548c4dd27f35?auto=format&fit=crop&w=600&q=80" alt="SIRUI Venus 35mm Anamorphic" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-              <span class="absolute top-3 left-3 bg-zinc-800 text-zinc-300 text-[10px] font-bold px-2 py-0.5 rounded shadow">
-                SIRUI STORE
-              </span>
-            </div>
-            <div class="p-4">
-              <h4 class="font-bold text-white text-base mb-1">SIRUI Venus 35mm Anamorphic</h4>
-              <p class="text-xs text-zinc-400 mb-2">
-                1.6x Squeeze Full-Frame anamorfiskt objektiv för L-Mount. Ger äkta widescreen oval bokeh och blå flares.
-              </p>
-            </div>
+        <div class="bg-zinc-900/80 border border-amber-500/30 rounded-2xl overflow-hidden flex flex-col hover:border-amber-500/60 transition-all group">
+          <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1617005082133-548c4dd27f35?auto=format&fit=crop&w=600&q=80" alt="SIRUI Venus 35mm Anamorphic" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-zinc-800 text-zinc-300 text-[10px] font-bold px-2 py-0.5 rounded shadow">SIRUI STORE</span>
           </div>
-          <div class="p-4 pt-0 border-t border-zinc-800/50 mt-auto flex items-center justify-between">
-            <div>
-              <span class="text-xs text-zinc-500 block">Direktimport</span>
-              <span class="text-lg font-bold text-white">5,979.96 kr</span>
-            </div>
-            <a href="https://store.sirui.com/products/sirui-venus-anamorphic-lens-kit" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 bg-zinc-800 hover:bg-zinc-700 text-white rounded-lg text-xs font-bold transition-colors inline-flex items-center gap-1 border border-zinc-700">
-              <span>Sirui Store</span>
-              <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+          <div class="p-4 flex-1 flex flex-col">
+            <h4 class="font-bold text-white text-base mb-1">SIRUI Venus 35mm L-Mount</h4>
+            <p class="text-xs text-zinc-400 flex-1">1.6x Squeeze Full-Frame anamorfiskt objektiv för L-Mount.</p>
+            <a href="https://store.sirui.com/products/sirui-venus-anamorphic-lens-kit" target="_blank" rel="noopener noreferrer" class="mt-4 w-full py-2 bg-zinc-800 hover:bg-zinc-700 text-white text-center rounded-lg text-sm font-bold transition-colors flex items-center justify-center gap-2 border border-zinc-700">
+              Köp hos Sirui <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </div>
         </div>
 
         <!-- 82mm ND Filter -->
-        <div class="bg-zinc-900/80 border border-amber-500/30 rounded-2xl overflow-hidden flex flex-col justify-between hover:border-amber-500/60 transition-all group">
-          <div>
-            <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1621847468516-1ed5d0df56fe?auto=format&fit=crop&w=600&q=80" alt="K&F Concept 82mm ND Filter" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-              <span class="absolute top-3 left-3 bg-orange-600 text-white text-[10px] font-bold px-2 py-0.5 rounded shadow">
-                AMAZON
-              </span>
-            </div>
-            <div class="p-4">
-              <h4 class="font-bold text-white text-base mb-1">K&F Concept 82mm ND2-ND400</h4>
-              <p class="text-xs text-zinc-400 mb-2">
-                Variabelt neutralt gråfilter (82mm gänga) anpassat för Sirui 35mm objektivet. B-serie optiskt glas.
-              </p>
-            </div>
+        <div class="bg-zinc-900/80 border border-amber-500/30 rounded-2xl overflow-hidden flex flex-col hover:border-amber-500/60 transition-all group">
+          <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1621847468516-1ed5d0df56fe?auto=format&fit=crop&w=600&q=80" alt="K&F Concept 82mm ND Filter" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-orange-600 text-white text-[10px] font-bold px-2 py-0.5 rounded shadow">AMAZON</span>
           </div>
-          <div class="p-4 pt-0 border-t border-zinc-800/50 mt-auto flex items-center justify-between">
-            <span class="text-lg font-bold text-white">373 kr</span>
-            <a href="https://www.amazon.se/Concept-B-serie-variabel-ND2-ND400-neutralt/dp/B08HQZD6W6?mcid=29969bc5ffea31f5b785037ec862f89d&tag=shpngadsglede-21&linkCode=df0&hvadid=798547926168&hvpos=&hvnetw=g&hvrand=2527617740679116067&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1012489&hvtargid=pla-2305262836946&psc=1&hvocijid=2527617740679116067-B08HQZD6W6-&hvexpln=0&language=sv_SE&gad_source=1" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 bg-orange-600 hover:bg-orange-500 text-white rounded-lg text-xs font-bold transition-colors inline-flex items-center gap-1">
-              <span>Köp Amazon</span>
-              <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+          <div class="p-4 flex-1 flex flex-col">
+            <h4 class="font-bold text-white text-base mb-1">82mm Variabelt ND-Filter</h4>
+            <p class="text-xs text-zinc-400 flex-1">K&F Concept B-serie ND2-ND400, anpassat för Sirui.</p>
+            <a href="https://www.amazon.se/Concept-B-serie-variabel-ND2-ND400-neutralt/dp/B08HQZD6W6/" target="_blank" rel="noopener noreferrer" class="mt-4 w-full py-2 bg-orange-600 hover:bg-orange-500 text-white text-center rounded-lg text-sm font-bold transition-colors flex items-center justify-center gap-2 border border-orange-700">
+              Köp på Amazon <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </div>
         </div>
 
         <!-- SmallRig Follow Focus -->
-        <div class="bg-zinc-900/80 border border-amber-500/30 rounded-2xl overflow-hidden flex flex-col justify-between hover:border-amber-500/60 transition-all group">
-          <div>
-            <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1520390138845-fd2d229dd553?auto=format&fit=crop&w=600&q=80" alt="SmallRig 3010 Follow Focus" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-              <span class="absolute top-3 left-3 bg-zinc-800 text-zinc-300 text-[10px] font-bold px-2 py-0.5 rounded shadow">
-                SCANDINAVIAN PHOTO
-              </span>
-            </div>
-            <div class="p-4">
-              <h4 class="font-bold text-white text-base mb-1">SmallRig 3010 Follow Focus Mini</h4>
-              <p class="text-xs text-zinc-400 mb-2">
-                Manuell skärpedragare för precision när du kör manuell fokusering på filmobjektiv.
-              </p>
-              <div class="text-[10px] text-amber-400 font-medium">*Ingår endast i Paket A</div>
-            </div>
+        <div class="bg-zinc-900/80 border border-amber-500/30 rounded-2xl overflow-hidden flex flex-col hover:border-amber-500/60 transition-all group">
+          <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1520390138845-fd2d229dd553?auto=format&fit=crop&w=600&q=80" alt="SmallRig 3010 Follow Focus" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-zinc-800 text-zinc-300 text-[10px] font-bold px-2 py-0.5 rounded shadow">SCANDINAVIAN PHOTO</span>
           </div>
-          <div class="p-4 pt-0 border-t border-zinc-800/50 mt-auto flex items-center justify-between">
-            <span class="text-lg font-bold text-white">1,490 kr</span>
-            <a href="https://www.scandinavianphoto.se/smallrig/3010-follow-focus-mini-1051425?_gl=1*ldr0o0*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwt9jVBhDXARIsAFSP-6f4W35QO-uVNksUY8IjQMjD9rJmcS45rDrP2gulJ8SEr5s7SgHqcGQaAssAEALw_wcB&gbraid=0AAAAAD1xMF1gwsaE0_HpSLRNqPe14idqd" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 bg-zinc-800 hover:bg-zinc-700 text-white rounded-lg text-xs font-bold transition-colors inline-flex items-center gap-1 border border-zinc-700">
-              <span>Köp SP</span>
-              <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+          <div class="p-4 flex-1 flex flex-col">
+            <h4 class="font-bold text-white text-base mb-1">SmallRig Follow Focus Mini</h4>
+            <p class="text-xs text-zinc-400 flex-1">Manuell skärpedragare för precision när du kör manuell fokusering.</p>
+            <a href="https://www.scandinavianphoto.se/smallrig/3010-follow-focus-mini-1051425" target="_blank" rel="noopener noreferrer" class="mt-4 w-full py-2 bg-zinc-800 hover:bg-zinc-700 text-white text-center rounded-lg text-sm font-bold transition-colors flex items-center justify-center gap-2 border border-zinc-700">
+              Köp hos SP <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </div>
         </div>
@@ -410,75 +311,55 @@
       </div>
     </section>
 
-    <!-- SECTION 3: PAKET B SPECIFIK UTRUSTNING -->
-    <section id="section-pkg-b-items" class="transition-opacity duration-300 opacity-40 pointer-events-none">
+    <!-- SECTION 3: OPTION 2 (Kit AF) -->
+    <section id="section-pkg-b-items" class="transition-opacity duration-300 opacity-40 pointer-events-none hidden">
       <div class="flex items-center justify-between mb-6 pb-2 border-b border-cyan-500/30">
         <div>
           <h3 class="text-xl font-bold text-cyan-400 font-display flex items-center gap-2">
-            <i class="fa-solid fa-bolt"></i> Paket B: Autofokus Zoom Kit
+            <i class="fa-solid fa-bolt"></i> Option 2: Kit AF Equipment
           </h3>
-          <p class="text-xs text-zinc-400">Specifika produkter för autofokus- och zoomkonfigurationen</p>
+          <p class="text-xs text-zinc-400">Produkter för den flexibla autofokus-konfigurationen</p>
         </div>
         <span class="text-xs font-bold bg-cyan-500/10 text-cyan-400 px-3 py-1 rounded-full border border-cyan-500/30">
-          Unikt för Paket B
+          Tillägg: 17,113 kr
         </span>
       </div>
 
+      <!-- Använder samma rutnätstruktur för att säkerställa `aspect-[3/4]` för alla objekt -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
         <!-- S5II + 20-60mm Kit -->
-        <div class="bg-zinc-900/80 border border-cyan-500/30 rounded-2xl overflow-hidden flex flex-col justify-between hover:border-cyan-500/60 transition-all group sm:col-span-2 lg:col-span-2">
-          <div>
-            <div class="relative w-full aspect-[16/9] bg-zinc-950 overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=800&q=80" alt="Lumix S5II + 20-60mm Kit" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-              <span class="absolute top-3 left-3 bg-emerald-600 text-white text-[10px] font-bold px-2 py-0.5 rounded shadow">
-                3 300 KR CASHBACK
-              </span>
-            </div>
-            <div class="p-4">
-              <h4 class="font-bold text-white text-lg mb-1">Panasonic Lumix S5II + Lumix S 20-60mm f/3.5-5.6 Kit</h4>
-              <p class="text-xs text-zinc-400 mb-3">
-                Komplett kamerapaket med mångsidig vidvinkel- till normalzoom. Innehåller blixtsnabb Phase Hybrid Autofokus, intern bildstabilisering och extremt flexibel brännvidd.
-              </p>
-              <div class="text-xs text-zinc-500 line-through">Ord. paketpris: 20,090 kr</div>
-            </div>
+        <div class="bg-zinc-900/80 border border-cyan-500/30 rounded-2xl overflow-hidden flex flex-col hover:border-cyan-500/60 transition-all group lg:col-span-2">
+          <div class="relative w-full aspect-[3/4] sm:aspect-[4/3] lg:aspect-auto lg:h-[400px] bg-zinc-950 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=800&q=80" alt="Lumix S5II + 20-60mm Kit" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-zinc-800 text-zinc-300 text-[10px] font-bold px-2 py-0.5 rounded shadow">SCANDINAVIAN PHOTO</span>
           </div>
-          <div class="p-4 pt-0 border-t border-zinc-800/50 mt-auto flex items-center justify-between">
-            <div>
-              <span class="text-xs text-emerald-400 block font-semibold">Efter Cashback</span>
-              <span class="text-xl font-extrabold text-cyan-400">16,790 kr</span>
-            </div>
-            <a href="https://www.scandinavianphoto.se/panasonic/lumix-dc-s5ii--20-60mm-f35-56-1058554?_gl=1*1sd2y30*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjwt9jVBhDXARIsAFSP-6f4W35QO-uVNksUY8IjQMjD9rJmcS45rDrP2gulJ8SEr5s7SgHqcGQaAssAEALw_wcB&gbraid=0AAAAAD1xMF1gwsaE0_HpSLRNqPe14idqd" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-cyan-500 hover:bg-cyan-400 text-zinc-950 rounded-lg text-xs font-bold transition-colors inline-flex items-center gap-2">
-              <span>Köp Kit hos SP</span>
-              <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+          <div class="p-4 flex-1 flex flex-col">
+            <h4 class="font-bold text-white text-lg mb-1">Panasonic S5II + 20-60mm</h4>
+            <p class="text-xs text-zinc-400 flex-1">Komplett kit med mångsidig zoom. Blixtsnabb AF och bildstabilisering.</p>
+            <a href="https://www.scandinavianphoto.se/panasonic/lumix-dc-s5ii--20-60mm-f35-56-1058554" target="_blank" rel="noopener noreferrer" class="mt-4 w-full py-3 bg-cyan-500 hover:bg-cyan-400 text-zinc-950 text-center rounded-lg text-sm font-bold transition-colors flex items-center justify-center gap-2">
+              Köp Kit hos SP <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </div>
         </div>
 
         <!-- 67mm ND Filter -->
-        <div class="bg-zinc-900/80 border border-cyan-500/30 rounded-2xl overflow-hidden flex flex-col justify-between hover:border-cyan-500/60 transition-all group">
-          <div>
-            <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1617005082133-548c4dd27f35?auto=format&fit=crop&w=600&q=80" alt="K&F Concept 67mm ND Filter" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
-              <span class="absolute top-3 left-3 bg-orange-600 text-white text-[10px] font-bold px-2 py-0.5 rounded shadow">
-                AMAZON
-              </span>
-            </div>
-            <div class="p-4">
-              <h4 class="font-bold text-white text-base mb-1">K&F Concept 67mm ND2-ND400</h4>
-              <p class="text-xs text-zinc-400 mb-2">
-                Variabelt ND-filter anpassat med 67mm filtergänga för 20-60mm kit-objektivet.
-              </p>
-            </div>
+        <div class="bg-zinc-900/80 border border-cyan-500/30 rounded-2xl overflow-hidden flex flex-col hover:border-cyan-500/60 transition-all group">
+          <div class="relative w-full aspect-[3/4] bg-zinc-950 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1617005082133-548c4dd27f35?auto=format&fit=crop&w=600&q=80" alt="K&F Concept 67mm ND Filter" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+            <span class="absolute top-3 left-3 bg-orange-600 text-white text-[10px] font-bold px-2 py-0.5 rounded shadow">AMAZON</span>
           </div>
-          <div class="p-4 pt-0 border-t border-zinc-800/50 mt-auto flex items-center justify-between">
-            <span class="text-lg font-bold text-white">323 kr</span>
-            <a href="https://www.amazon.se/Concept-ND2-400-Variable-Neutral-Adjustable/dp/B00LL1TB84/ref=sr_1_1_sspa?crid=1TP760T0IUW1D&dib=eyJ2IjoiMSJ9.RxAECJroFV5efEp4PFwUUVXzWwsko2-uvLeIRWFWnBcMxRwoSafqbKpwYPArpQmt5eI739pAsxazdeGM22vh2nM-aSuEmhRkqIQGERhNarhH9kT3lXiqHisbP3f-L6IAWgmPLlBn1a5-wIHx5P-tEQEnHugk_SL7hzKgdPV0UlGERsyf9VffJXMmpUmXZI6dulp4Ih1NF-LVuSEVaZDwHAkF-qItorX3L00Gdvkx5Ib2lkTxuueDMn52dkD7mC_xi9yxxX8cArrxQzaEuV4KUIJkfKscUk_UHEpp0heEhv8.cnHls8WoX6pk9u7aYRGIGgO8XcrqZgTkygepxNqCCPE&dib_tag=se&keywords=67mm+nd+filter&qid=1790361564&sprefix=67mm+nd+filt%2Caps%2C159&sr=8-1-spons&aref=p9Nz8egkhv&sp_csd=d2lkZ2V0TmFtZT1zcF_atf&psc=1" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 bg-orange-600 hover:bg-orange-500 text-white rounded-lg text-xs font-bold transition-colors inline-flex items-center gap-1">
-              <span>Köp Amazon</span>
-              <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+          <div class="p-4 flex-1 flex flex-col">
+            <h4 class="font-bold text-white text-base mb-1">67mm Variabelt ND-Filter</h4>
+            <p class="text-xs text-zinc-400 flex-1">K&F Concept ND2-400, anpassat med 67mm gänga för 20-60mm kitet.</p>
+            <a href="https://www.amazon.se/Concept-ND2-400-Variable-Neutral-Adjustable/dp/B00LL1TB84/" target="_blank" rel="noopener noreferrer" class="mt-4 w-full py-2 bg-orange-600 hover:bg-orange-500 text-white text-center rounded-lg text-sm font-bold transition-colors flex items-center justify-center gap-2 border border-orange-700">
+              Köp på Amazon <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </a>
           </div>
         </div>
+
+        <!-- Empty slot to balance grid if needed on desktop -->
+        <div class="hidden lg:block"></div>
 
       </div>
     </section>
@@ -488,11 +369,11 @@
       <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
         <div>
           <h3 class="text-xl font-bold text-white font-display">Ekonomisk Sammanställning</h3>
-          <p class="text-xs text-zinc-400">Genomgång av utlägg, cashback och slutgiltig kostnad</p>
+          <p class="text-xs text-zinc-400">Total beräknad kostnad för den valda riggen.</p>
         </div>
         <div class="flex items-center space-x-2 bg-zinc-900 border border-zinc-800 p-1.5 rounded-xl text-xs">
           <span class="text-zinc-400 px-2">Valt paket:</span>
-          <span id="summary-badge-active" class="font-bold text-amber-400 px-2 py-0.5 bg-amber-500/10 rounded">Paket A (Cinema)</span>
+          <span id="summary-badge-active" class="font-bold text-amber-400 px-2 py-0.5 bg-amber-500/10 rounded">Option 1 (Anamorphic)</span>
         </div>
       </div>
 
@@ -500,170 +381,150 @@
         <table class="w-full text-left text-xs sm:text-sm">
           <thead>
             <tr class="border-b border-zinc-800 text-zinc-400 uppercase text-[10px] tracking-wider">
-              <th class="pb-3 font-semibold">Komponent / Kategori</th>
-              <th class="pb-3 font-semibold">Ordinarie Pris</th>
-              <th class="pb-3 font-semibold text-emerald-400">Cashback Rabatt</th>
-              <th class="pb-3 font-semibold text-right">Netto Pris</th>
+              <th class="pb-3 font-semibold">Utrustning</th>
+              <th class="pb-3 font-semibold text-right">Kostnad</th>
             </tr>
           </thead>
           <tbody class="divide-y divide-zinc-800/60 text-zinc-300">
             <tr>
-              <td class="py-3 font-medium text-white">Gemensam Basutrustning (Stativpaket, Axellrigg, Mattebox, Batteri)</td>
-              <td class="py-3">4,806.00 kr</td>
-              <td class="py-3 text-zinc-500">-</td>
-              <td class="py-3 font-bold text-right text-white">4,806.00 kr</td>
+              <td class="py-3 font-medium text-white">
+                <i class="fa-solid fa-lock text-zinc-500 mr-2"></i> 
+                Låst Basutrustning (Stativ, Rigg, Mattebox, Batteri)
+              </td>
+              <td class="py-3 font-bold text-right text-zinc-400">4,806 kr</td>
             </tr>
-            <tr id="row-camera-spec">
-              <td class="py-3 font-medium text-white" id="summary-cam-name">Panasonic S5II Hus + SIRUI 35mm Anamorphic + 82mm ND + Follow Focus</td>
-              <td class="py-3" id="summary-cam-gross">25,732.96 kr</td>
-              <td class="py-3 font-semibold text-emerald-400" id="summary-cam-cb">-2,200.00 kr</td>
-              <td class="py-3 font-bold text-right text-white" id="summary-cam-net">23,532.96 kr</td>
+            <tr>
+              <td class="py-3 font-medium text-white" id="summary-cam-name">
+                <i class="fa-solid fa-film text-amber-500 mr-2" id="summary-icon"></i>
+                Valt Tilläggspaket
+              </td>
+              <td class="py-3 font-bold text-right text-zinc-400" id="summary-cam-net">23,533 kr</td>
             </tr>
           </tbody>
           <tfoot>
             <tr class="border-t-2 border-zinc-800 text-base">
               <td class="pt-4 font-bold text-white">Totalt Belopp</td>
-              <td class="pt-4 font-semibold text-zinc-400" id="summary-total-gross">30,538.96 kr</td>
-              <td class="pt-4 font-bold text-emerald-400" id="summary-total-cb">-2,200.00 kr</td>
-              <td class="pt-4 font-extrabold text-right text-amber-400 text-xl" id="summary-total-net">28,338.96 kr</td>
+              <td class="pt-4 font-extrabold text-right text-amber-400 text-xl" id="summary-total-net">28,339 kr</td>
             </tr>
           </tfoot>
         </table>
-      </div>
-
-      <!-- Cashback Info Banner -->
-      <div class="mt-6 bg-emerald-950/30 border border-emerald-500/30 rounded-2xl p-4 flex items-start gap-3 text-xs text-emerald-200">
-        <i class="fa-solid fa-circle-info text-emerald-400 text-base mt-0.5"></i>
-        <div>
-          <span class="font-bold text-emerald-300 block mb-0.5">Hur fungerar Panasonics Cashback?</span>
-          Du köper kameran/kittet från Scandinavian Photo till det ordinarie priset. Därefter registrerar du ditt köp hos Panasonics officiella kampanjsida för att få tillbaka pengarna (<span id="cashback-amount-text" class="font-bold">2 200 kr</span> eller <span class="font-bold">3 300 kr</span> beroende på paket) insatta direkt på ditt bankkonto.
-        </div>
       </div>
     </section>
 
   </main>
 
   <script>
-    // Price Data Structure
-    const BASE_COST = 2400 + 1090 + 797 + 519; // 4806 SEK
+    // Exact Price Data Structure based on prompt instructions
+    const BASE_COST = 4806;
 
     const PACKAGE_A = {
-      name: "Paket A: Anamorfisk / Cinema Prime",
-      camName: "Panasonic S5II Hus + SIRUI 35mm Anamorphic + 82mm ND + Follow Focus",
-      gross: 17890 + 5979.96 + 373 + 1490, // 25732.96 SEK
-      cashback: 2200,
-      net: (17890 + 5979.96 + 373 + 1490) - 2200 // 23532.96 SEK
+      id: 'A',
+      name: "Option 1 (Anamorphic)",
+      icon: "fa-film text-amber-500",
+      colorClass: "text-amber-400",
+      bgClass: "bg-amber-500/10",
+      borderClass: "border-amber-500/30",
+      addonNet: 23533,
+      totalNet: BASE_COST + 23533 // 28339
     };
 
     const PACKAGE_B = {
-      name: "Paket B: Autofokus Kit",
-      camName: "Panasonic S5II + 20-60mm Kit + 67mm ND Filter",
-      gross: 20090 + 323, // 20413 SEK
-      cashback: 3300,
-      net: (20090 + 323) - 3300 // 17113 SEK
+      id: 'B',
+      name: "Option 2 (Kit AF)",
+      icon: "fa-bolt text-cyan-400",
+      colorClass: "text-cyan-400",
+      bgClass: "bg-cyan-500/10",
+      borderClass: "border-cyan-500/30",
+      addonNet: 17113,
+      totalNet: BASE_COST + 17113 // 21919
     };
 
-    let currentPackage = 'A';
-
     function formatSEK(amount) {
-      return new Intl.NumberFormat('sv-SE', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(amount) + ' kr';
+      return new Intl.NumberFormat('sv-SE', { style: 'decimal' }).format(amount) + ' kr';
     }
 
-    function switchPackage(pkg) {
-      currentPackage = pkg;
+    function switchPackage(pkgId) {
+      const pkgData = pkgId === 'A' ? PACKAGE_A : PACKAGE_B;
       
       const cardA = document.getElementById('card-pkg-a');
       const cardB = document.getElementById('card-pkg-b');
       const badgeA = document.getElementById('badge-a');
       const badgeB = document.getElementById('badge-b');
+      
       const sectionA = document.getElementById('section-pkg-a-items');
       const sectionB = document.getElementById('section-pkg-b-items');
 
-      if (pkg === 'A') {
-        // Highlight Card A
+      if (pkgId === 'A') {
+        // Style Card A
         cardA.classList.add('border-amber-500', 'cinematic-glow-gold');
         cardA.classList.remove('border-zinc-800');
-        cardB.classList.remove('border-cyan-500', 'cinematic-glow-cyan');
-        cardB.classList.add('border-zinc-800');
-
         badgeA.innerHTML = '<i class="fa-solid fa-check"></i>';
         badgeA.className = "w-6 h-6 rounded-full border-2 border-amber-500 bg-amber-500 flex items-center justify-center text-zinc-950 text-xs";
+        
+        // Style Card B
+        cardB.classList.remove('border-cyan-500', 'cinematic-glow-cyan');
+        cardB.classList.add('border-zinc-800');
         badgeB.innerHTML = '<i class="fa-solid fa-check opacity-0"></i>';
         badgeB.className = "w-6 h-6 rounded-full border-2 border-zinc-700 flex items-center justify-center text-xs";
 
-        // Enable Section A, Disable B
-        sectionA.classList.remove('opacity-40', 'pointer-events-none');
+        // Show/Hide sections
+        sectionA.classList.remove('hidden');
+        sectionB.classList.add('hidden');
+        
+        // Short timeout for transition effect
+        setTimeout(() => {
+          sectionA.classList.remove('opacity-40', 'pointer-events-none');
+        }, 50);
         sectionB.classList.add('opacity-40', 'pointer-events-none');
 
-        updateSummaryUI(PACKAGE_A, 'A');
       } else {
-        // Highlight Card B
+        // Style Card B
         cardB.classList.add('border-cyan-500', 'cinematic-glow-cyan');
         cardB.classList.remove('border-zinc-800');
-        cardA.classList.remove('border-amber-500', 'cinematic-glow-gold');
-        cardA.classList.add('border-zinc-800');
-
         badgeB.innerHTML = '<i class="fa-solid fa-check"></i>';
         badgeB.className = "w-6 h-6 rounded-full border-2 border-cyan-500 bg-cyan-500 flex items-center justify-center text-zinc-950 text-xs";
+        
+        // Style Card A
+        cardA.classList.remove('border-amber-500', 'cinematic-glow-gold');
+        cardA.classList.add('border-zinc-800');
         badgeA.innerHTML = '<i class="fa-solid fa-check opacity-0"></i>';
         badgeA.className = "w-6 h-6 rounded-full border-2 border-zinc-700 flex items-center justify-center text-xs";
 
-        // Enable Section B, Disable A
-        sectionB.classList.remove('opacity-40', 'pointer-events-none');
+        // Show/Hide sections
+        sectionB.classList.remove('hidden');
+        sectionA.classList.add('hidden');
+        
+        // Short timeout for transition effect
+        setTimeout(() => {
+          sectionB.classList.remove('opacity-40', 'pointer-events-none');
+        }, 50);
         sectionA.classList.add('opacity-40', 'pointer-events-none');
-
-        updateSummaryUI(PACKAGE_B, 'B');
       }
+
+      updateUI(pkgData);
     }
 
-    function updateSummaryUI(pkgData, code) {
-      const grandGross = BASE_COST + pkgData.gross;
-      const grandNet = BASE_COST + pkgData.net;
+    function updateUI(pkgData) {
+      // Update Top Nav
+      const navTotalEl = document.getElementById('nav-net-total');
+      navTotalEl.textContent = formatSEK(pkgData.totalNet);
+      navTotalEl.className = `text-xl font-extrabold ${pkgData.colorClass}`;
 
-      // Nav Totals
-      document.getElementById('nav-net-total').textContent = formatSEK(grandNet);
-      document.getElementById('nav-gross-total').textContent = formatSEK(grandGross);
-      document.getElementById('nav-cashback').textContent = '-' + formatSEK(pkgData.cashback);
-
-      if (code === 'A') {
-        document.getElementById('nav-net-total').className = "text-xl font-extrabold text-amber-400";
-      } else {
-        document.getElementById('nav-net-total').className = "text-xl font-extrabold text-cyan-400";
-      }
-
-      // Summary Table
+      // Update Summary Table
       const summaryBadge = document.getElementById('summary-badge-active');
       summaryBadge.textContent = pkgData.name;
-      if (code === 'A') {
-        summaryBadge.className = "font-bold text-amber-400 px-2 py-0.5 bg-amber-500/10 rounded border border-amber-500/30";
-      } else {
-        summaryBadge.className = "font-bold text-cyan-400 px-2 py-0.5 bg-cyan-500/10 rounded border border-cyan-500/30";
-      }
+      summaryBadge.className = `font-bold px-2 py-0.5 rounded border ${pkgData.colorClass} ${pkgData.bgClass} ${pkgData.borderClass}`;
 
-      document.getElementById('summary-cam-name').textContent = pkgData.camName;
-      document.getElementById('summary-cam-gross').textContent = formatSEK(pkgData.gross);
-      document.getElementById('summary-cam-cb').textContent = '-' + formatSEK(pkgData.cashback);
-      document.getElementById('summary-cam-net').textContent = formatSEK(pkgData.net);
-
-      document.getElementById('summary-total-gross').textContent = formatSEK(grandGross);
-      document.getElementById('summary-total-cb').textContent = '-' + formatSEK(pkgData.cashback);
+      document.getElementById('summary-icon').className = `fa-solid mr-2 ${pkgData.icon}`;
+      document.getElementById('summary-cam-net').textContent = formatSEK(pkgData.addonNet);
       
       const totalNetEl = document.getElementById('summary-total-net');
-      totalNetEl.textContent = formatSEK(grandNet);
-      if (code === 'A') {
-        totalNetEl.className = "pt-4 font-extrabold text-right text-amber-400 text-xl";
-      } else {
-        totalNetEl.className = "pt-4 font-extrabold text-right text-cyan-400 text-xl";
-      }
-
-      document.getElementById('cashback-amount-text').textContent = formatSEK(pkgData.cashback);
+      totalNetEl.textContent = formatSEK(pkgData.totalNet);
+      totalNetEl.className = `pt-4 font-extrabold text-right text-xl ${pkgData.colorClass}`;
     }
 
     // Initialize on page load
     window.addEventListener('DOMContentLoaded', () => {
-      // Set initial state displays
-      document.getElementById('pkg-a-price-display').textContent = formatSEK(BASE_COST + PACKAGE_A.net);
-      document.getElementById('pkg-b-price-display').textContent = formatSEK(BASE_COST + PACKAGE_B.net);
       switchPackage('A');
     });
   </script>
